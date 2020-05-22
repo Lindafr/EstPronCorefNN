@@ -7,7 +7,7 @@ This is a part of Linda Freienthal's master thesis "Pronominal coreference resol
 
 Each folder contains an individual test, the results of which are explained and analyzed in the thesis.
 
-For example in the *NNa* folder contains the test *do_NNa.py* which trains a network called *NNa* with 7-fold method 15 times and outputs the averages of the results. The input data is in file *ccorpusSciKitLearn.txt* and in most cases also in file *allCategoricalFeatures.txt*. This code outputs:
+For example in the *NNa* folder contains the test *do_NNa.py* which trains a network called *NNa* with the 7-fold method 15 times and outputs the averages of the results. The input data is in the file *ccorpusSciKitLearn.txt* and in most cases also in the file *allCategoricalFeatures.txt*. This code outputs:
 
 - *NNa_results.txt* file (containing confusion matrix info, average MCC, loss, accuracy, recall, precision and F1 results on test set), 
 - *NNa_confused.png* (containing confusion matrix with percentages), 
@@ -15,7 +15,7 @@ For example in the *NNa* folder contains the test *do_NNa.py* which trains a net
 - *NNa_acc_val.pdf* (containing average accuracy values on training and validation data) and 
 - *NNa.png* (containing the architecture of the network). 
 
-All other *do_\*.py* files in other folders work in similar way. For more information about the networks read the thesis.
+All other *do_\*.py* files in other folders work in a similar way. For more information about the networks read the thesis.
 
 These codes work with:
 

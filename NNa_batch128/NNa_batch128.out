@@ -1,0 +1,36 @@
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/ubuntu/.local/lib/python2.7/site-packages/tensorflow/python/ops/nn_impl.py:180: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2020-05-13 12:16:33.200897: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2020-05-13 12:16:33.208992: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2095070000 Hz
+2020-05-13 12:16:33.209281: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ef59e49f90 executing computations on platform Host. Devices:
+2020-05-13 12:16:33.209309: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-05-13 12:16:33.299188: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /usr/local/lib/python2.7/dist-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+Starting REPEAT no.0
+Starting REPEAT no.1
+Starting REPEAT no.2
+Starting REPEAT no.3
+Starting REPEAT no.4
+Starting REPEAT no.5
+Starting REPEAT no.6
+Starting REPEAT no.7
+Starting REPEAT no.8
+Starting REPEAT no.9
+Starting REPEAT no.10
+Starting REPEAT no.11
+Starting REPEAT no.12
+Starting REPEAT no.13
+Starting REPEAT no.14
+Traceback (most recent call last):
+  File "do_NNa_batch128.py", line 337, in <module>
+    plot_model(seq, to_file=TEST_NAME+'.png', show_shapes=True, show_layer_names=True)
+  File "/usr/local/lib/python2.7/dist-packages/keras/utils/vis_utils.py", line 240, in plot_model
+    expand_nested, dpi)
+  File "/usr/local/lib/python2.7/dist-packages/keras/utils/vis_utils.py", line 79, in model_to_dot
+    _check_pydot()
+  File "/usr/local/lib/python2.7/dist-packages/keras/utils/vis_utils.py", line 31, in _check_pydot
+    '`pydot` failed to call GraphViz.'
+OSError: `pydot` failed to call GraphViz.Please install GraphViz (https://www.graphviz.org/) and ensure that its executables are in the $PATH.

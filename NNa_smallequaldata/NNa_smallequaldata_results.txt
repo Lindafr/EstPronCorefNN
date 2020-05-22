@@ -1,0 +1,18 @@
+     	precision	recall		f1-score	support
+    0	0.997		0.879		0.934		31352.0
+     	0.996-0.998	0.876-0.881	0.932-0.935	31352.0-31352.0
+   1	0.21		0.884		0.339		1135.0
+     	0.207-0.213		0.881-0.887	0.336-0.342	1135.0-1135.0
+
+macro	0.602		0.882		0.636		32487.0
+     	0.601-0.604	0.881-0.883	0.634-0.639	32487.0-32487.0
+weighted	0.97		0.878		0.913		32487.0
+     	0.97-0.97	0.876-0.88	0.912-0.914	32487.0-32487.0
+
+Average accuracy on val data: 0.879 (95% interval being: 0.877-0.881)
+Average loss on val data: 0.554 (95% interval being: 0.546-0.562)
+Average MCC value on val data: 0.396 (95% interval being: 0.393-0.398)
+Type I error is: 0.79
+TypeII error is: 0.0
+Confusion matrix is:1003.41 131.59
+3791.14 27560.86

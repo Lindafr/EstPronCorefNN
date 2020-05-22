@@ -5,9 +5,9 @@ See on osa Linda Freienthali magistritööst "Pronominaalsete viitesuhete automa
 # PronCorefNN
 This is a part of Linda Freienthal's master thesis "Pronominal coreference resolution in Estonian with neural networks".
 
-Each folder contains an individual test, which results are explained and analyzed in the thesis.
+Each folder contains an individual test, the results of which are explained and analyzed in the thesis.
 
-For example, in *NNa* folder one can find a test *do_NNa.py* which trains a network called *NNa* with 7-fold method 15 times and outputs the averages of the results. The input data is in file *ccorpusSciKitLearn.txt* and in most cases also in file *allCategoricalFeatures.txt*. This code outputs:
+For example in *NNa* folder contains the test *do_NNa.py* which trains a network called *NNa* with 7-fold method 15 times and outputs the averages of the results. The input data is in file *ccorpusSciKitLearn.txt* and in most cases also in file *allCategoricalFeatures.txt*. This code outputs:
 
 - *NNa_results.txt* file (containing confusion matrix info, average MCC, loss, accuracy, recall, precision and F1 results on test set), 
 - *NNa_confused.png* (containing confusion matrix with percentages), 
